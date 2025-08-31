@@ -1,0 +1,18 @@
+name: oki-in-action
+on: 
+ push:
+ #schedule:
+   #- cron: '* * * * *'
+
+jobs:
+ Akah-builing:
+   runs-on: ubuntu-latest
+   steps:
+     - name: checkout repo
+       uses: actions/checkout@v4
+     - name: shell commands
+       run: |
+        ls -a
+        touch action.txt && echo "Hello my world" > action.txt
+        ls
+        cat action.txt
