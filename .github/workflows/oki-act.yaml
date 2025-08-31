@@ -1,6 +1,9 @@
 name: oki-in-action
 on: 
  push:
+    branches:
+        - main
+        - dev
  #schedule:
    #- cron: '* * * * *'
 
