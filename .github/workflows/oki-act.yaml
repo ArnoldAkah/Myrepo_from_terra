@@ -19,3 +19,6 @@ jobs:
         touch action.txt && echo "Hello my world" > action.txt
         ls
         cat action.txt
+     - name: cat file
+       run: |
+         cat sidney\core.yaml
