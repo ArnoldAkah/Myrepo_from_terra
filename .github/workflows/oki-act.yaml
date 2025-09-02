@@ -21,4 +21,4 @@ jobs:
         cat action.txt
      - name: cat file
        run: |
-         cat "sidney\core.yaml"
+         cat "sidney/core.yaml"
