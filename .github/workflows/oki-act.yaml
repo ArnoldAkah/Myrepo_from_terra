@@ -23,4 +23,4 @@ jobs:
        run: |
          cd sidney
          ls
-         cat Akah-actions/sidney/core.yaml
+         cat core.yaml
