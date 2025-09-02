@@ -21,4 +21,6 @@ jobs:
         cat action.txt
      - name: cat file
        run: |
+         cd sidney
+         ls
          cat Akah-actions/sidney/core.yaml
